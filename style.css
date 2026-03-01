@@ -1,0 +1,12 @@
+
+:root {
+    --bg: cornflower;
+    --accent: lightblue;
+    --text: darkbrown;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background: var(--bg);
+    
+}
