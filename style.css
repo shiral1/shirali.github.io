@@ -10,3 +10,7 @@ body {
     background: var(--bg);
     
 }
+
+#contact h6 {
+    margin-bottom: 0.5rem;
+}

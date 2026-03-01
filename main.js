@@ -1,6 +1,3 @@
-
-Copy
-
 function renderProjects(projects) {
   const inProgress = document.getElementById('in-progress-list');
   const finished = document.getElementById('finished-list');
