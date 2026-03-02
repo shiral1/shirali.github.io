@@ -18,6 +18,8 @@ body {
     max-width: var(--container-max-width);
     margin: 0 auto;                                             /*pushes equal space on both sides, centering the container horizontally.*/
     padding: var(--container-contact-container);
+
+    
 }
 
 .projects-container {
@@ -26,12 +28,15 @@ body {
     padding: 0 5rem;
 }
 
-#contact h6 {
+#contact {
+    text-align: center;
     font-size: 1rem;
+}
+
+#contact h6 {
     margin-bottom: 0.5rem;
 }
 
 #contact p {
-    font-size: 1rem;
     margin: 0.2rem;
 }
