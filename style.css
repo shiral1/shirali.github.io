@@ -5,6 +5,7 @@
     --text: saddlebrown;
     --gen-font-fam: 'Courier New', Courier, monospace;
     --container-max-width: 760px;
+    --container-contact-container: 0 10rem 0;
 }
 
 body {
@@ -16,20 +17,21 @@ body {
 .contact-container {
     max-width: var(--container-max-width);
     margin: 0 auto;                     /*pushes equal space on both sides, centering the container horizontally.*/
-    padding: 0 2rem;
+    padding: var(--container-contact-container);
 }
 
 .projects-container {
     max-width: var(--container-max-width);
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 5rem;
 }
 
 #contact h6 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
 #contact p {
     font-size: 1rem;
+    margin: 0.2rem;
 }
